@@ -1,0 +1,1 @@
+The forEach loop in JavaScript is used to iterate over the elements of an array and execute a provided function once for each element. It provides a more concise and readable way to perform actions on each item in an array compared to traditional for loops.
