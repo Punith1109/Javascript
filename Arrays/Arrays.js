@@ -1,0 +1,47 @@
+///Push
+let fruits = ['apple', 'orange', 'banana'];
+fruits.push('grape');
+console.log(fruits); 
+
+// // ///Pop
+let names=["hari","krisj","Swpna","rao"]
+names.pop();
+console.log(names)
+
+// ///Slice
+let numbers = [1, 2, 3, 4, 5];
+let slicedNumbers = [];
+let requiredLength=4
+for (let i = 1; i < requiredLength; i++) {
+    slicedNumbers.push(numbers[i]);
+}
+
+console.log("Sliced array using for loop:", slicedNumbers);
+let sliceed=[]
+ sliceed=numbers.slice(1,requiredLength)
+console.log("Without slice :",slicedNumbers)
+console.log("With Slice: ",sliceed)
+
+
+///Join
+
+let fruit = ['apple', 'orange', 'banana', 'grape'];
+let joinedFruits = '';
+
+for(let i=0;i<fruit.length;i++){
+    joinedFruits+=fruit[i]
+    if(i<fruit.length){
+        joinedFruits+=', ';
+    }
+}
+console.log("Joined using for loop:", joinedFruits);
+
+let alt=fruit.join(', ')
+console.log("After using join:",alt)
+
+//Split
+
+let sentence = 'This is the sentence';
+
+let a=sentence.split(' ');
+console.log(a);
