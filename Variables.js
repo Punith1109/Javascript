@@ -20,15 +20,13 @@ function greet(name) {
 
 let undefinedVariable;
 
-
+var myvar=90
+var mystr="Hari"
 let nullVariable = null;
 
-// Symbol
-let symbolVariable = Symbol("unique");
 
-// BigInt
 let bigIntVariable = 9007199254740991n;
 
-// Constants
+
 const PI = 3.14159;
 

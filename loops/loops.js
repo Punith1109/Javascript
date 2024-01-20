@@ -1,8 +1,16 @@
 /////--For loop
-let k=0;
-for(let i=0;i<10;i++){
-k+=i
+function Multiples(number, tableSize) {
+
+    for (let i = 1; i <= tableSize; i++) {
+        let result = number * i;
+
+        console.log(`${number} * ${i} = ${result}${highlight}`);
+    }
 }
+const baseNumber = 7;
+const sizeOfTable = 10;
+Multiples(baseNumber, sizeOfTable);
+
 
 ////whileloop
 
